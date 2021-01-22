@@ -1,6 +1,6 @@
 const https = require('https');
 
-//Insert your own API token.
+//Insert your own API token (in account settings).
 const myApiToken = '' 
 
 //Edit your notification settings (default set to turn off all). Documentation is found on: https://snyk.docs.apiary.io/#reference/users/user-organization-notification-settings/modify-org-notification-settings
