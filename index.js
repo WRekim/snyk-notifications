@@ -1,9 +1,11 @@
 const https = require('https');
 
-//Insert your own API token (in account settings).
+// Insert your own API token (in account settings).
+// https://support.snyk.io/hc/en-us/articles/360004008258-Authenticate-the-CLI-with-your-account
 const myApiToken = '' 
 
-//Edit your notification settings (default set to turn off all). Documentation is found on: https://snyk.docs.apiary.io/#reference/users/user-organization-notification-settings/modify-org-notification-settings
+// Edit your notification settings (default set to turn off all).
+// https://snyk.docs.apiary.io/#reference/users/user-organization-notification-settings/modify-org-notification-settings
 const notificationSettings = {
     "new-issues-remediations": {
         "enabled": false,
